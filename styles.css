@@ -1,0 +1,127 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    text-align: center;
+    color: white;
+}
+
+/* Header Section */
+header {
+    background-color: #111;
+    color: white;
+    padding: 40px 20px;
+}
+
+.profile img {
+    width: 220px;  
+    height: 220px;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-top: 10px;
+}
+
+.profile h1 {
+    margin: 10px 0;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.profile p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+/* Section Styles */
+section {
+    margin: 20px auto;
+    padding: 25px;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Darker Backgrounds */
+.about {
+    background-color: #440000;
+}
+
+.personal-info {
+    background-color: #002244;
+}
+
+.interests {
+    background-color: #224400;
+}
+
+/* Headings */
+h2 {
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* Content */
+p, ul li {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+/* Lists */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 8px 0;
+}
+
+/* Area of Interest - Stylish Layout */
+.interest-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+.interest {
+    background-color: #ffcc00;
+    color: #222;
+    padding: 12px 20px;
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/* Footer Section */
+footer {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #111;
+}
+
+footer h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/* Social Links */
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-links a img {
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s ease;
+}
+
+.social-links a img:hover {
+    transform: scale(1.2);
+}
